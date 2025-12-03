@@ -4,13 +4,12 @@ public class Main {
         try {
             Student s = new Student("Kanha", 22, 85);
             s.show();
-
-            Student s2 = new Student("Rohan", 21, 120); // invalid marks
+            Student s2 = new Student("Rohan", 21, 120);
             s2.show();
-
         } catch (InvalidMarksException e) {
             System.out.println("Error: " + e.getMessage());
         }
     }
 }
+
 
